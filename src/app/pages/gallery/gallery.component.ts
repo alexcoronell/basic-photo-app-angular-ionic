@@ -1,17 +1,17 @@
 import { Component, OnInit } from '@angular/core';
 
-import { IonHeader, IonToolbar, IonTitle, IonContent } from '@ionic/angular/standalone';
+import { IonHeader, IonToolbar, IonTitle, IonContent, IonButtons, IonMenuButton } from '@ionic/angular/standalone';
 
 @Component({
   selector: 'app-gallery',
   templateUrl: './gallery.component.html',
   styleUrls: ['./gallery.component.scss'],
-  imports: [IonHeader, IonToolbar, IonTitle, IonContent]
+  imports: [IonHeader, IonToolbar, IonTitle, IonContent, IonButtons, IonMenuButton]
 })
-export class GalleryComponent  implements OnInit {
+export class GalleryComponent implements OnInit {
 
   constructor() { }
 
-  ngOnInit() {}
+  ngOnInit() { }
 
 }
